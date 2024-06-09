@@ -1,0 +1,29 @@
+{
+  "name": "dashboard-widget-wp-2024",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "plugin-zip": "wp-scripts plugin-zip"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edsonvieirademetrio/dashboard-widget-wp-2024.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edsonvieirademetrio/dashboard-widget-wp-2024/issues"
+  },
+  "homepage": "https://github.com/edsonvieirademetrio/dashboard-widget-wp-2024#readme",
+  "devDependencies": {
+    "@wordpress/scripts": "^27.9.0"
+  },
+  "dependencies": {
+    "recharts": "^2.12.7"
+  }
+}
